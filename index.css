@@ -108,7 +108,7 @@ section {
     margin-right: 30px;
 }
 
-#nav-menu {
+#nav-bar {
     z-index: 999;
     position: fixed;
     background: rgba(255, 255, 255, 0.1);
@@ -122,12 +122,12 @@ section {
     transition: 0.5s ease;
 }
 
-#nav-menu.sticky {
+#nav-bar.sticky {
     background: #272c3a;
     padding: 10px 200px;
 }
 
-#nav-menu .brand {
+#nav-bar .brand {
     color: #fff;
     font-size: 1.8em;
     font-weight: 700;
@@ -135,19 +135,19 @@ section {
     text-decoration: none;
 }
 
-#nav-menu .navigation {
+#nav-bar .navigation {
     position: relative;
 }
 
-#nav-menu .navigation ul {
+#nav-bar .navigation ul {
     list-style-type: none;
 }
 
-#nav-menu .navigation li {
+#nav-bar .navigation li {
     float: left;
 }
 
-#nav-menu .navigation a {
+#nav-bar .navigation a {
     color: #fff;
     font-size: 1em;
     font-weight: 500;
@@ -155,11 +155,11 @@ section {
     margin-left: 30px;
 }
 
-#nav-menu .navigation a:hover {
+#nav-bar .navigation a:hover {
     color: #272d3d;
 }
 
-#nav-menu.sticky .navigation a:hover {
+#nav-bar.sticky .navigation a:hover {
     color: #000;
 }
 
@@ -558,19 +558,19 @@ body {
 }
 
 @media (max-width: 1040px) {
-    #nav-menu {
+    #nav-bar {
         padding: 12px 20px;
     }
 
-    #nav-menu.sticky {
+    #nav-bar.sticky {
         padding: 10px 20px;
     }
 
-    #nav-menu .navigation {
+    #nav-bar .navigation {
         display: none;
     }
 
-    #nav-menu .navigation.active {
+    #nav-bar .navigation.active {
         z-index: 888;
         position: fixed;
         background: #fff;
@@ -586,7 +586,7 @@ body {
         transition: 0.3s ease;
     }
 
-    #nav-menu .navigation a {
+    #nav-bar .navigation a {
         color: #000;
         font-size: 1.2em;
         margin: 10px;
@@ -594,12 +594,12 @@ body {
         border-radius: 20px;
     }
 
-    #nav-menu .navigation li {
+    #nav-bar .navigation li {
         float: none;
         padding: 10px 0;
     }
 
-    #nav-menu .navigation a:hover {
+    #nav-bar .navigation a:hover {
         background: #373d4d;
         color: #fff;
         transition: 0.3s ease;
