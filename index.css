@@ -46,7 +46,7 @@ section {
 }
 
 .animated-text h3 {
-    color: #4e9eff;
+    color: #9199a2;
     font-size: 3em;
     font-weight: 700;
     line-height: 70px;
@@ -81,7 +81,7 @@ section {
 
 .btn {
     color: #fff;
-    background: #3a6cf4;
+    background: #242835;
     font-size: 1em;
     font-weight: 600;
     display: inline-block;
@@ -95,7 +95,7 @@ section {
 }
 
 .btn:hover {
-    background: #235bf6;
+    background: #242836;
 }
 
 .media-icons {
@@ -123,7 +123,7 @@ section {
 }
 
 #nav-menu.sticky {
-    background: #3a6cf4;
+    background: #272c3a;
     padding: 10px 200px;
 }
 
@@ -156,7 +156,7 @@ section {
 }
 
 #nav-menu .navigation a:hover {
-    color: #3a6cf4;
+    color: #272d3d;
 }
 
 #nav-menu.sticky .navigation a:hover {
@@ -177,7 +177,7 @@ body {
 
 .section-title {
     position: relative;
-    color: #3a6cf4;
+    color: #313641;
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 60px;
@@ -190,7 +190,7 @@ body {
     left: 50%;
     width: 140px;
     height: 4px;
-    background: #3a6cf4;
+    background: #343a4b;
     transform: translateX(-50%);
 }
 
@@ -202,7 +202,7 @@ body {
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background: #3a6cf4;
+    background: #333b51;
     transform: translateX(-50%);
 }
 
@@ -379,7 +379,7 @@ body {
 }
 
 .services .content .card .info h3 {
-    color: #3a6cf4;
+    color: #242835;
     font-size: 1.2em;
     font-weight: 700;
     margin: 10px;
@@ -454,7 +454,7 @@ body {
 }
 
 .contact .content .row .card .contact-icon {
-    color: #3a6cf4;
+    color: #2f374c;
     font-size: 4em;
     text-align: center;
     transition: transform 0.5s ease;
@@ -518,7 +518,7 @@ body {
 
 .contact-form .input-box .send-btn {
     color: #fff;
-    background: #3a6cf4;
+    background: #2d3345;
     display: inline-block;
     font-size: 1.1em;
     font-weight: 500;
@@ -531,7 +531,7 @@ body {
 }
 
 .contact-form .input-box .send-btn:hover {
-    background: #235bf6;
+    background: #3e475f;
 }
 
 .footer {
@@ -552,7 +552,7 @@ body {
 }
 
 .footer p a {
-    color: #3a6cf4;
+    color: #252a38;
     font-weight: 600;
     text-decoration: none;
 }
@@ -600,7 +600,7 @@ body {
     }
 
     #nav-menu .navigation a:hover {
-        background: #3a6cf4;
+        background: #373d4d;
         color: #fff;
         transition: 0.3s ease;
     }
@@ -677,7 +677,7 @@ body {
 .scrollToTop-btn {
     z-index: 999;
     position: fixed;
-    background: #3a6cf4;
+    background: #262c3d;
     color: #fff;
     width: 45px;
     height: 45px;
@@ -989,7 +989,7 @@ body {
     background: #fff;
     border-radius: 6px;
     padding: 20px 60px 30px 40px;
-    box-shadow: #3a6cf4;
+    box-shadow: #28314a;
     margin: auto;
 }
 
@@ -1028,7 +1028,7 @@ body {
 
 .content1 .left-side .details i {
     font-size: 30px;
-    color: #3a6cf4;
+    color: #242b3c;
     margin-bottom: 10px;
 }
 
@@ -1051,7 +1051,7 @@ body {
 .content1 .right-side .topic-text {
     font-size: 23px;
     font-weight: 600;
-    color: #3a6cf4;
+    color: #242938;
 }
 
 .right-side .input-box {
@@ -1093,13 +1093,13 @@ body {
     border: none;
     padding: 8px 16px;
     border-radius: 6px;
-    background: #3a6cf4;
+    background: #20232c;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .button input[type="button"]:hover {
-    background: #5029bc;
+    background: #211b31;
 }
 
 @media (max-width: 950px) {
@@ -1193,7 +1193,7 @@ body {
     border-radius: 9% 25% 9% 25%;
     font-weight: 700;
     text-decoration: none;
-    background-color: rgb(88, 133, 255);
+    background-color: rgb(21, 23, 28);
 
 
 }
