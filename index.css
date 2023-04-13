@@ -567,7 +567,7 @@ body {
     }
 
     #nav-bar .navigation {
-        display: none;
+        
     }
 
     #nav-bar .navigation.active {
@@ -1133,7 +1133,7 @@ body {
     }
 
     .container1 .content1 .left-side::before {
-        display: none;
+        
     }
 
     .container1 .content1 .right-side {
