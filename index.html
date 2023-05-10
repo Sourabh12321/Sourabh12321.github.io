@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    
+
 
     <!-- HEADER -->
     <!-- navbar -->
@@ -29,8 +29,7 @@
                     <li><a class="nav-link education" href="#edu">Education</a></li>
                     <li><a class="nav-link contact" href="#contact">Contact</a></li>
                     <li id="resume-button-1"><a href="/sourabh-rajput-Resume (10).pdf" target="_blank"
-                            download="sourabh-rajput-Resume (10).pdf" id="resume-link-1"
-                            class="nav-link resume"
+                            download="sourabh-rajput-Resume (10).pdf" id="resume-link-1" class="nav-link resume"
                             onclick="window.open('https://drive.google.com/file/d/1HSfFtEaHR84u4JtEGIyUyztizhuNQfv_/view')">Resume</a>
                     </li>
                 </ul>
@@ -50,11 +49,10 @@
 
                     </div>
                     <a href="#work" class="btn">See My Work</a>
-                    <a href="/sourabh-rajput-Resume (10).pdf" target="_blank"
-                            download="sourabh-rajput-Resume (10).pdf" id="resume-button-1" style="margin-left: 10px"
-                            class="btn"
-                            onclick="window.open('https://drive.google.com/file/d/1HSfFtEaHR84u4JtEGIyUyztizhuNQfv_/view')">Resume</a>
-                    
+                    <a href="/sourabh-rajput-Resume (10).pdf" target="_blank" download="sourabh-rajput-Resume (10).pdf"
+                        id="resume-button-1" style="margin-left: 10px" class="btn"
+                        onclick="window.open('https://drive.google.com/file/d/1HSfFtEaHR84u4JtEGIyUyztizhuNQfv_/view')">Resume</a>
+
                     <div class="media-icons">
                         <a target="_blank" rel="noreferrer" href="https://github.com/Sourabh12321"
                             id="contact-github"><i class="fab fa-github"></i></a>
@@ -339,57 +337,33 @@
         Contribution</h1>
     <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
 
-    <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+
     <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
 
-    <!-- Prepare a container for your calendar. -->
+
     <div class="calendar" id="github-streak-stats" style="margin-left:30px;margin-right:30px">
-        <!-- Loading stuff -->
+        <script>
+            GitHubCalendar(".calendar", "sourabh12321");
+            
+            GitHubCalendar(".calendar", "sourabh12321", { responsive: true });
+        </script>
+
         Loading the data just for you.
     </div>
 
-    <script>
-        GitHubCalendar(".calendar", "sourabh12321");
-        // or enable responsive functionality
-        GitHubCalendar(".calendar", "sourabh12321", { responsive: true });
-    </script>
-    <!-- <div class="stats1 calendar react-activity-calendar" >
-        <script src="https://github-readme-stats.vercel.app/api?username=sourabh12321&show_icons=true&locale=en"></script>
-        <link rel="stylesheet" href="https://github-readme-streak-stats.herokuapp.com/?user=sourabh12321&"/>
-
-        <script>
-        GitHubCalendar(".calendar", "Sourabh12321");
-        // or enable responsive functionality
-        GitHubCalendar(".calendar", "Sourabh12321", { responsive: true });
-        </script>
-    </div> -->
-
+    <div class="stats">
+        <img id="github-streak-stats">
+    </div>
     <div class="stats1 calendar">
-        <img id="github-top-langs" align="center" class="stats1 react-activity-calendar"
-            alt="most used languages"
+        <img id="github-top-langs" alt="most used languages" align="center" class="stats1 react-activity-calendar"
             src="https://github-readme-stats.vercel.app/api?username=sourabh12321&show_icons=true&locale=en" />
     </div>
     <div class="stats2 calendar">
-        <img id="github-stats-card" class="stats2 react-activity-calendar"
-            src="https://github-readme-streak-stats.herokuapp.com/?user=sourabh12321&" alt="sourabh">
+        <img id="github-stats-card" align="center" class="stats1 react-activity-calendar"
+            src="https://github-readme-streak-stats.herokuapp.com/?user=sourabh12321&" alt="">
     </div>
 
-
-    <!-- <div class="stats1 calendar">
-        <img align="center" class="stats1 react-activity-calendar" id="github-stats-card github-streak-stats github-top-langs"
-                src="https://github-readme-stats.vercel.app/api?username=sourabh12321&show_icons=true&locale=en"
-                alt="sourabh12321" /></p>
-    </div>
-
-    <div class="stats2 calendar">
-        
-            <img class="stats2 react-activity-calendar" id="github-stats-card github-streak-stats"
-                src="https://github-readme-streak-stats.herokuapp.com/?user=sourabh12321&" alt="sourabh12321" /></p>
-    </div> -->
-
-
-
-
+    
 
 
     <section class="contact" id="contact">
