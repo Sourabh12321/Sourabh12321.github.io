@@ -907,17 +907,13 @@ body {
 }
 
 @media (max-width: 600px) {
-    .stats1 {
+    .stats {
         width: 85%;
 
         margin: auto;
     }
 
-    .stats2 {
-        width: 85%;
-
-        margin: auto;
-    }
+    
 
     #card1 {
         height: 100%;
