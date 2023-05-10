@@ -1,4 +1,6 @@
 //javascript for navigation bar effects on scroll
+
+
 window.addEventListener("scroll", function () {
     const header = document.querySelector("nav");
     header.classList.toggle('sticky', window.scrollY > 0);
@@ -50,3 +52,4 @@ function reveal() {
         }
     }
 }
+

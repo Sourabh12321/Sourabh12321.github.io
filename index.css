@@ -252,8 +252,9 @@ body {
     font-size: 1em;
 }
 
-.skills {
-    background: #000016;
+#skilldata {
+    background-color: #000016;
+    
 }
 
 .skills .content {
@@ -567,7 +568,7 @@ body {
     }
 
     #nav-bar .navigation {
-        
+        display:none;
     }
 
     #nav-bar .navigation.active {
@@ -1086,7 +1087,7 @@ body {
     margin-top: 12px;
 }
 
-.right-side .button input[type="button"] {
+.right-side #submit  {
     color: #fff;
     font-size: 18px;
     outline: none;
@@ -1098,7 +1099,7 @@ body {
     transition: all 0.3s ease;
 }
 
-.button input[type="button"]:hover {
+#submit:hover {
     background: #211b31;
 }
 
@@ -1186,6 +1187,7 @@ body {
 .bbtn {
 
     display: flex;
+    color:white;
     justify-content: center;
     align-items: center;
     border: none;
